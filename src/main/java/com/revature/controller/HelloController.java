@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public Pet hello() {
-        return new Pet(1l,"Ashes", "hello", "hello");
+        return new Pet(1l,"Updated Ashes", "hello", "hello");
     }
 }
