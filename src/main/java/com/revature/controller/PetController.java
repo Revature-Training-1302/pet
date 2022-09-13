@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.nio.file.Path;
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/pets")
 public class PetController {
